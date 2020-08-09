@@ -9,6 +9,11 @@ const mongoose = require('mongoose');
 const path = require('path');
 const publicPath = path.resolve(__dirname, '../public');
 
+/// Implementación body-parser para poder leer el body de las peticiones post
+const bodyParser = require('body-parser');
+app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.json());
+
 // Configs
 require('./config/config');
 
@@ -18,6 +23,7 @@ app.use(express.static(publicPath));
 // Rutas
 
 app.use(require('./routes/usuario'));
+app.use(require('./routes/login'));
 
 // Conexión a la base de datos
 

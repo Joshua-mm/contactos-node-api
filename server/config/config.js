@@ -17,3 +17,11 @@ if (process.env.NODE_ENV === 'dev') {
 }
 
 process.env.URLDB = urldb;
+
+/// Token JWT
+
+process.env.SEED = process.env.SEED || 'secret';
+
+// Vencimiento token
+
+process.env.CADUCIDAD = '8760h';

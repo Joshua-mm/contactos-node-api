@@ -7,12 +7,15 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "node server/server.js"
     },
-    "author": "Zeik",
+    "author": "Zeik & HollowKat",
     "license": "ISC",
     "dependencies": {
         "bcrypt": "^5.0.0",
+        "body-parser": "^1.19.0",
         "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
         "mongoose": "^5.9.28",
-        "mongoose-unique-validator": "^2.0.3"
+        "mongoose-unique-validator": "^2.0.3",
+        "underscore": "^1.10.2"
     }
 }
