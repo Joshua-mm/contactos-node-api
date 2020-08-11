@@ -26,6 +26,7 @@ app.use(require('./routes/usuario'));
 app.use(require('./routes/login'));
 app.use(require('./routes/categoria'));
 app.use(require('./routes/contacto'));
+app.use(require('./routes/papelera'));
 
 // Conexión a la base de datos
 
