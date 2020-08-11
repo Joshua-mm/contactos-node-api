@@ -8,9 +8,50 @@
 </head>
 
 <body>
+    <h1>Lista de rutas de peticiones</h1>
+
+    <h3>Usuarios</h3>
+    <hr>
+    <b>Crear un nuevo usuario: Peticion POST</b>
+    <hr>
     <p>
-        Solo un archivo publico, nada impresionante.
+        <a href="https://api-contactos-zeik.herokuapp.com/usuario">https://api-contactos-zeik.herokuapp.com/usuario</a>
     </p>
+    <p>
+        <b>Contenido del body - x-www-form-urlencoded. (Usar las mismas keys que se muestran en la imágen)</b>
+        <br><br>
+        <img src="assets/img/crear-usuario.jpg" alt="Crear usuario" title="Crear usuario - POST">
+    </p>
+
+    <hr>
+    <b>Ver información de un usuario: Petición GET</b>
+
+    <hr>
+    <br><small>Para esta petición es necesario proporcionar un token mediante los header con el key 'token'</small>
+    <p>
+        <a href="https://api-contactos-zeik.herokuapp.com/usuario">https://api-contactos-zeik.herokuapp.com/usuario</a>
+    </p>
+
+    <hr>
+    <b>Actualizar información de un usuario: Petición PUT</b>
+    <hr>
+    <p>
+        <a href="https://api-contactos-zeik.herokuapp.com/usuario/">https://api-contactos-zeik.herokuapp.com/usuario/:usuario_id</a>
+    </p>
+    <p>
+        <b>Contenido del body - x-www-form-urlencoded. (Usar las mismas keys que se muestran en la imágen)</b>
+        <br><small>Para esta petición es necesario proporcionar un token mediante los header con el key 'token'</small>
+        <br><br>
+        <img src="assets/img/actualizar-usuario.jpg" alt="Actualizar usuario" title="Actualizar usuario - PUT">
+    </p>
+
+    <hr>
+    <b>Desactivar un usuario - Petición Delete</b>
+    <hr>
+    <p>
+        <a href="https://api-contactos-zeik.herokuapp.com/usuario">https://api-contactos-zeik.herokuapp.com/usuario/:usuario_id</a>
+    </p>
+    <br><small>Para esta petición es necesario proporcionar un token mediante los header con el key 'token' y ser un administrador de la aplicación</small>
 </body>
 
 </html>

@@ -14,6 +14,10 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
+// Implementar CORS para poder acceder al api desde el front end
+const cors = require('cors');
+app.use(cors());
+
 // Configs
 require('./config/config');
 

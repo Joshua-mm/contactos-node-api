@@ -16,4 +16,4 @@ npm install
 
 # Notas: 
 
-- Una vez descargado el proyecto deberás crear una variable de entorno en Heroku con el nombre ```MONGO_URI``` y tu link de conexión de mongoDB compass dentro. Ejemplo: ```mongodb+srv://<username>:<password>@cluster0.r0rzl.mongodb.net/contactos``` 
+- Una vez descargado el proyecto deberás crear una variable de entorno en Heroku con el nombre ```MONGO_URI``` y tu link de conexión de mongoDB compass dentro. Ejemplo: ```mongodb+srv://<username>:<password>@cluster0.r0rzl.mongodb.net/contactos```
