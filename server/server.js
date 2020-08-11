@@ -25,6 +25,7 @@ app.use(express.static(publicPath));
 app.use(require('./routes/usuario'));
 app.use(require('./routes/login'));
 app.use(require('./routes/categoria'));
+app.use(require('./routes/contacto'));
 
 // Conexión a la base de datos
 
